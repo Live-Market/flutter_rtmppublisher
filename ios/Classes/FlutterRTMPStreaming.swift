@@ -188,7 +188,7 @@ public class FlutterRTMPStreaming : NSObject {
 
 class MyRTMPStreamQoSDelagate: RTMPStreamDelegate {
     let minBitrate: UInt32 = 300 * 1024
-    let maxBitrate: UInt32 = 2500 * 1024
+    let maxBitrate: UInt32 = 6000 * 1024
     let incrementBitrate: UInt32 = 512 * 1024
     
     func didPublishSufficientBW(_ stream: RTMPStream, withConnection: RTMPConnection) {
