@@ -165,7 +165,7 @@ public class FlutterRTMPStreaming : NSObject {
                 .height: dimensions.height,
                 .profileLevel: kVTProfileLevel_H264_Baseline_AutoLevel,
                 .maxKeyFrameIntervalDuration: 2,
-                .bitrate: 1200 * 1024
+                .bitrate: 3500 * 1024
             ]
             rtmpStream.captureSettings = [
                 .fps: 24
